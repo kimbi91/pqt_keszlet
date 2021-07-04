@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}PQT-Kart Kft. Készletkezelő{% endblock %}
+
+{% block body %}
+    {% if stocks %}
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Forgalmi Rendszám</th>
+                <th>Méret</th>
+                <th>Állapot</th>
+                <th>Opciók</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for stock in stocks %}
+                <tr>
+                    <td>{{ stock.title }}</td>
+                    <td>{{ stock.size }}</td>
+                    <td>{{ stock.cond }}</td>
+                    <td>
+                        <a href="/stock/{{ stock.id }}" class="btn btn-dark">Megtekintés</a>
+                        <a href="/stock/edit/{{ stock.id }}" class="btn btn-light">Szerkesztés</a>
+                        <form method="post" action="/stock/delete/{{ stock.id }}" onsubmit="return confirm('Biztosan törölni szeretné ezt a tételt?');" style="display: inline;">
+                            <input type="hidden" name="_method" value="DELETE">
+                            <button class="btn btn-danger">Törlés</button>
+                        </form>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>Nincs megjelenitendő tétel.</p>
+    {% endif %}
+{% endblock %}

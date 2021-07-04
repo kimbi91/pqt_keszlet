@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ stock.title }}{% endblock %}
+
+{% block body %}
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Forgalmi Rendszám</th>
+            <th>Méret</th>
+            <th>Állapot</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>{{ stock.title }}</td>
+            <td>{{ stock.size }}</td>
+            <td>{{ stock.cond }}</td>
+        </tr>
+        </tbody>
+    </table>
+    <hr>
+    <a href="/">Vissza</a>
+{% endblock %}
