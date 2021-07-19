@@ -7,3 +7,5 @@ fos_user:
     address: "test@domain.com"
     sender_name: "test@domain.com"
 
+
+
