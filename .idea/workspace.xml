@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61834b40-4c2e-4b7d-8224-a9c307bb89f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,7 @@
     <session id="-1138996088">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -31,24 +30,24 @@
         <counts>
           <entry key="console" value="1" />
           <entry key="env" value="3" />
-          <entry key="htaccess" value="1" />
-          <entry key="json" value="6" />
+          <entry key="htaccess" value="3" />
+          <entry key="json" value="7" />
           <entry key="php" value="28" />
           <entry key="twig" value="49" />
           <entry key="xml" value="1" />
-          <entry key="yaml" value="30" />
+          <entry key="yaml" value="36" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="6" />
+          <entry key="JSON" value="7" />
           <entry key="PHP" value="29" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Twig" value="49" />
           <entry key="XML" value="1" />
-          <entry key="YAML" value="32" />
-          <entry key="htaccess" value="1" />
+          <entry key="YAML" value="38" />
+          <entry key="htaccess" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -57,7 +56,7 @@
           <entry key="json" value="5" />
           <entry key="php" value="1175" />
           <entry key="twig" value="1003" />
-          <entry key="yaml" value="505" />
+          <entry key="yaml" value="511" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -66,7 +65,7 @@
           <entry key="PHP" value="1175" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Twig" value="1003" />
-          <entry key="YAML" value="505" />
+          <entry key="YAML" value="511" />
         </counts>
       </usages-collector>
     </session>
@@ -259,7 +258,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -295,6 +294,11 @@
               <item name="pqt_keszlet" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pqt_keszlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pqt_keszlet" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pqt_keszlet" type="b2602c69:ProjectViewProjectNode" />
@@ -338,32 +342,6 @@
               <item name="pqt_keszlet" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pqt_keszlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pqt_keszlet" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pqt_keszlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pqt_keszlet" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pqt_keszlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pqt_keszlet" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pqt_keszlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pqt_keszlet" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pqt_keszlet" type="b2602c69:ProjectViewProjectNode" />
@@ -446,7 +424,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Dev_stuff/pqt_keszlet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../the_spacebar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -486,16 +464,15 @@
       <workItem from="1626716568884" duration="5482000" />
       <workItem from="1626803141735" duration="8223000" />
       <workItem from="1626890365077" duration="4625000" />
-      <workItem from="1626975729867" duration="332000" />
+      <workItem from="1626975729867" duration="3114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50893000" />
+    <option name="totallyTimeSpent" value="53675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -525,16 +502,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/stocks/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -572,12 +539,6 @@
           <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/swiftmailer.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/validator.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/mailer.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -660,9 +621,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/preload.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
@@ -773,6 +731,31 @@
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/validator.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/swiftmailer.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../the_spacebar/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/translation.yaml">
       <provider selected="true" editor-type-id="text-editor">
