@@ -7,15 +7,23 @@
         <thead>
         <tr>
             <th>Forgalmi Rendszám</th>
+            <th>Tulajdonos</th>
+            <th>Tel</th>
             <th>Méret</th>
             <th>Állapot</th>
+            <th>Felni</th>
+            <th>Dísztárcsa</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>{{ stock.title }}</td>
+            <td>{{ stock.name }}</td>
+            <td>{{ stock.phone }}</td>
             <td>{{ stock.size }}</td>
             <td>{{ stock.cond }}</td>
+            <td>{{ stock.felni }}</td>
+            <td>{{ stock.decor }}</td>
         </tr>
         </tbody>
     </table>

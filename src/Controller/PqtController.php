@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Entity\Stock;
+use Doctrine\DBAL\Types\IntegerType;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -34,6 +35,14 @@ class PqtController extends AbstractController {
                 'label' => 'Forgalmi Rendszám',
                 'attr' => array('class' => 'form-control')
             ))
+            ->add('Name', TextType::class, array(
+                'label' => 'Tulajdonos',
+                'attr' => array('class' => 'form-control')
+            ))
+            ->add('phone', TextType::class, array(
+                'label' => 'Telefonszám',
+                'attr' => array('class' => 'form-control')
+            ))
             ->add('size', TextType::class, array(
                 'label' => 'Méret',
                 'required' => false,
@@ -42,6 +51,14 @@ class PqtController extends AbstractController {
             ->add('cond', TextType::class, array(
                 'label' => 'Állapot',
                 'required' => false,
+                'attr' => array('class' => 'form-control')
+            ))
+            ->add('felni', TextType::class, array(
+                'label' => 'Felni',
+                'attr' => array('class' => 'form-control')
+            ))
+            ->add('decor', TextType::class, array(
+                'label' => 'Dísztárcsa',
                 'attr' => array('class' => 'form-control')
             ))
             ->add('save', SubmitType::class, array(
@@ -81,6 +98,14 @@ class PqtController extends AbstractController {
                 'label' => 'Forgalmi Rendszám',
                 'attr' => array('class' => 'form-control')
             ))
+            ->add('Name', TextType::class, array(
+                'label' => 'Tulajdonos',
+                'attr' => array('class' => 'form-control')
+            ))
+            ->add('phone', TextType::class, array(
+                'label' => 'Telefonszám',
+                'attr' => array('class' => 'form-control')
+            ))
             ->add('size', TextType::class, array(
                 'label' => 'Méret',
                 'required' => false,
@@ -89,6 +114,14 @@ class PqtController extends AbstractController {
             ->add('cond', TextType::class, array(
                 'label' => 'Állapot',
                 'required' => false,
+                'attr' => array('class' => 'form-control')
+            ))
+            ->add('felni', TextType::class, array(
+                'label' => 'Felni',
+                'attr' => array('class' => 'form-control')
+            ))
+            ->add('decor', TextType::class, array(
+                'label' => 'Dísztárcsa',
                 'attr' => array('class' => 'form-control')
             ))
             ->add('save', SubmitType::class, array(

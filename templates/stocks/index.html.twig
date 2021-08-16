@@ -12,7 +12,8 @@
                 <th>Forgalmi Rendszám</th>
                 <th>Méret</th>
                 <th>Állapot</th>
-                <th>Opciók</th>
+                <th>Felni</th>
+                <th>Dísztárcsa</th>
             </tr>
             </thead>
             <tbody>
@@ -21,6 +22,8 @@
                     <td>{{ stock.title }}</td>
                     <td>{{ stock.size }}</td>
                     <td>{{ stock.cond }}</td>
+                    <td>{{ stock.felni }}</td>
+                    <td>{{ stock.decor }}</td>
                     <td>
                         <a href="/stock/{{ stock.id }}" class="btn btn-dark">Megtekintés</a>
                         <a href="/stock/edit/{{ stock.id }}" class="btn btn-light">Szerkesztés</a>
